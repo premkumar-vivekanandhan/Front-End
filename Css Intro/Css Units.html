@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Units</title>
+    <style>
+        .px{
+            background-color: red;
+            height: 50px;
+            width: 30px;
+        }
+        .inch{
+            background-color: blue;
+            height: 1in;
+            width: 1in;
+        }
+        .mm{
+            background-color: violet;
+            height: 10mm;
+            width: 10mm;
+        }
+        .cm{
+            background-color: royalblue;
+            height: 4cm;
+            width: 6cm;
+        }
+        .pt{
+            background-color: brown;
+            height: 15pt;
+            width: 15pt;
+        }
+        .percentage{
+            background-color: yellowgreen;
+            height: 50%;
+            width: 50%;
+        }
+.rem{
+    background-color: gold;
+    width: 5rem;
+    height: 5rem;
+}
+.em{
+    background-color: aqua;
+    width: 5em;
+    height: 5em;
+}
+    </style>
+</head>
+<body>
+    <p>Absolute Units:Independent</p>
+   <p class="px">px</p>
+   <p class="inch">inch=1=>96px</p>
+   <p class="mm">mm</p>
+   <p class="cm">cm</p>
+   <p class="pt">pt</p>
+
+   <p>Relative Units:Depandent</p>
+   <p class="percentage">%=Screen Size</p>
+   <!-- Rem=based for root element -->
+   <p class="rem">Rem</p>
+   <div>
+    <!-- Em=based for parant element -->
+    <p class="em">Em</p>
+   </div>
+</body>
+</html>

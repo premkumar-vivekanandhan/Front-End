@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+.one>h3,.two>h4{
+    background-color: rgb(12, 127, 204);
+    
+}
+input[type="text"]{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: red;
+    background-color:aqua;
+    }
+input::placeholder{
+    color: green;
+}
+
+
+    </style>
+</head>
+<body>
+    <h2>Subjects</h2>
+    <div class="one">
+        <h3>10th Subject </h3>
+        <ol>
+            <li>tamil</li>
+            <li>English</li>
+            <li>Maths</li>
+            <li>Science</li>
+            <li>Social</li>
+        </ol>
+    </div>
+   <div class="two">
+        <h4>11th Subjects</h4>
+        <ul>
+            <li>Tamil</li>
+            <li>English</li>
+            <li>Maths</li>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Botony</li>
+            <li>Zoology</li>
+        </ul>
+    </div>
+    <h2>Student Login Form</h2>
+    <input type="text" placeholder="Enter Your Name">
+   <br>
+    <input type="password" placeholder="Enter Your Password">
+    <br>
+    <input type="submit">
+</body>
+</html>
