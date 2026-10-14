@@ -1,0 +1,142 @@
+ .head{
+    display: flex;
+    margin-top: 10px;
+    font-size: large;
+    background-color: rgba(55, 228, 2, 0.705);
+ }
+ .nav{
+    display: flex;
+        gap: 5px;
+      
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        text-align: center;
+        margin-top: 60px;
+        
+       
+    }
+    *{
+        margin: 0px;
+    }
+    .text{
+       
+        font-size: larger;
+        width: 1000px;
+    
+    }
+    .img{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        background-color: rgb(231, 185, 220);
+        height: 300px;
+    
+    }
+    .img1{
+        border-top-right-radius: 100px;
+        box-shadow: 5px 7px 10px rgb(179, 128, 170);
+    }
+    .new{
+        margin-top: 20px;
+    }
+   #button1{
+    background-color: rgb(222, 240, 160);
+    height: 35px;
+    width: 70;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: rgb(136, 7, 241);
+   }
+   .text2{
+    background-color: rgb(165, 78, 78);
+    margin-top: 15px;
+    height: 80px;
+    width: 100%;
+   align-items: center;
+   justify-items: center;
+   }
+   .img3{
+    
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+
+   }
+   .name{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+   }
+   b{
+    margin: 5px;
+   }
+   
+   .text3{
+    
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+     }
+.box1{
+    
+    height: 300px;
+    width: 100%;
+    background-color: rgba(12, 17, 5, 0.61);
+    display: flex;
+    gap: 100px;
+}
+  .last{
+    height: 150px;
+    width: 100%;
+    
+    background-color: rgba(22, 150, 189, 0.678);
+
+  }
+   
+   #foot{
+    
+    color: rgb(5, 1, 1);
+    display: flex;
+    flex-direction: row;
+    
+    
+   }
+    
+   #foot1{
+    
+    margin-top: 20px;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+
+    
+    
+   }
+   .foot2{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 150px;
+     display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+   }
+  
+
+  
+   
+
+ 
