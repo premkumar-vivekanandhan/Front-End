@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+     <script>
+        const add = (a, b) => {
+            console.log(add(20,20));
+  return a + b;
+        }
+
+        const sub=(a,b)=>a-b;
+        console.log(sub(45,70));
+        console.log("sub:"+sub(30,50));
+
+        function multi(x=10,y=90){
+            return x*y;
+        }
+        console.log("multi="+multi(30,5));
+
+
+console.log("LOOPING FUNCTION");
+        function even(n){
+            if(n>51){
+               return;  
+            }
+            console.log(n+1);
+            even(n+50);
+            
+        }
+        even(50);
+        // function callback(a1,b2,callback){
+        //     callback(a1,b2);
+        // }
+        // function callreturn(a1,b2){
+        //     return(a1+b2);
+        // }
+        // console.log("callback"(20,30));
+
+        //rest operator
+        function studentdetail(name,age,password){
+            console.log(name,age,password)
+        }
+        studentdetail("name:prem,","age:21,","password:098765.");
+        studentdetail("name:raja,","age:25,","password:348906.");
+        studentdetail("name:arun,","age:27,","password:1158012.");
+     </script>
+</head>
+<body>
+    
+</body>
+</html>
